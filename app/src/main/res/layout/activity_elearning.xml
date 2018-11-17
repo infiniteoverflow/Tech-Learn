@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ELearningActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/python"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/python" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/ccpp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/java"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/java" />
+
+            <Button
+                android:id="@+id/javaScript"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/js" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/django"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/django" />
+
+            <Button
+                android:id="@+id/web"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/htmlcss" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/mySQL"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/mysql" />
+
+            <Button
+                android:id="@+id/ml"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/ml" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/editPortalButton"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Our Portal !!"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

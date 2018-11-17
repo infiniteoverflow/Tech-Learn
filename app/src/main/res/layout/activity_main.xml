@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ELearningPortalImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/elearning" />
+
+                <Button
+                    android:id="@+id/ELearningPortalButton"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/phoneSetUpImage"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Open Our E-Portal Site" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/phoneSetUpImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/phonesetup" />
+
+                <Button
+                    android:id="@+id/phoneSetUpButton"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/phoneSetUpImage"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Set up your phone !!" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/aboutUsImage"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/group" />
+
+                <Button
+                    android:id="@+id/aboutUsButton"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@id/phoneSetUpImage"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="About the developers " />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

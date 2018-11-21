@@ -38,7 +38,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/");
             }
         });
 
@@ -48,7 +48,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/python_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/python_notes/");
             }
         });
 
@@ -58,7 +58,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/c_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/c_notes/");
             }
         });
 
@@ -68,7 +68,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/java_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/java_notes/");
             }
         });
 
@@ -78,7 +78,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/javascript_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/javascript_notes/");
             }
         });
 
@@ -88,7 +88,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/django_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/django_notes/");
             }
         });
 
@@ -98,7 +98,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/front_end_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/front_end_notes/");
             }
         });
 
@@ -108,7 +108,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/mysql_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/mysql_notes/");
             }
         });
 
@@ -118,7 +118,7 @@ public class ELearningActivity extends AppCompatActivity {
             public void onClick(View v) {
                 WebView myWebView = new WebView(ELearningActivity.this);
                 setContentView(myWebView);
-                myWebView.loadUrl("http://euno257.pythonanywhere.com/notes/machine_learning_notes/");
+                myWebView.loadUrl("http://adityaraman.pythonanywhere.com/notes/machine_learning_notes/");
             }
         });
     }
